@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
+# visual studio
+.vs/
+*.user
+*.aps
+*.suo
+*.VC.db
+*.VC.opendb
+ipch/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# build output
+x64/
+x86/
+Win32/
+Debug/
+Release/
+[Bb]in/
+[Oo]bj/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.exp
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.tmp
+tools/exit-log.csv
+
+# game dumps, too big + regenerated per build
+*.usmap
+*_SDK.h
+Dumper-7/
+CppSDK/
+Dumpspace/
+WorkMyWayUp/
+
+Thumbs.db
